@@ -1,9 +1,90 @@
-p
+body
 {
-	color: blue;
+	background: url("soleil.png") no-repeat top right, url(neige.jpg) fixed;
+	color: #FFFFFF;
 }
 
-h1, h2
+mark
+{
+	background-color: red;
+	color: black;
+}
+
+h1
+{
+	background-color: rgba(255, 0, 0, 0.3);
+	color: rgb(68, 227, 5);
+	font-size: 80px;
+	font-family: 'jcc_police';
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: overline;
+	text-align: center;
+}
+
+a:hover
+{
+	text-decoration: bold;
+	color: green;
+}
+
+a:active
+{
+	color: yellow;
+}
+
+h2
 {
 	color: red;
+	font-size: xx-large;
+	font-family: Impact, Georgia, Arial, sans-serif;
+	font-style: italic;
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+.introduction
+{
+	color: green;
+	font-family: jcc_police;
+}
+
+#contexte
+{
+	color: yellow;
+}
+
+p em
+{
+	color: red;
+}
+
+h4
+{
+	border: 14px blue solid;
+	width: 40%;
+}
+
+h4 + p
+{
+	color: grey;
+}
+
+div + span
+{
+	color: pink;
+}
+
+@font-face
+{
+	font-family: 'jcc_police';
+	src: url('jcc_police.otf');
+	src: url('jcc_police.otf') format(otf),
+		 url('jcc_police.ttf') format(ttf);
+}
+
+.img_flot
+{
+	float: left;
+	text-align: center;
 }
